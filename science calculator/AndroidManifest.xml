@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sci.cal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <supports-screens 
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="Scientific Calculator" >
+        <activity
+            android:name=".SciencecalcActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <meta-data android:value="a14f6187339eab5" android:name="ADMOB_PUBLISHER_ID"></meta-data>
+        <activity android:name=".Scicalc" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="portrait"/>
+        <activity android:name=".Regcalc" android:configChanges="keyboard|keyboardHidden|orientation" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="portrait"/>
+        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation"/>
+   
+        <activity android:name=".Reginfo" android:theme="@android:style/Theme.Dialog" android:label="Help" android:screenOrientation="portrait"></activity>
+        <activity android:name=".dialg" android:theme="@android:style/Theme.Panel"></activity>
+        <activity  android:name=".infopg" android:theme="@android:style/Theme.Dialog" android:label="Disclaimer" android:screenOrientation="portrait"></activity>
+        <activity android:name=".dlgtt" android:theme="@android:style/Theme.Panel"></activity>
+        </application>
+
+</manifest>

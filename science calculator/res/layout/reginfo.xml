@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Scientific Calculator"
+    android:gravity="center"
+     android:textStyle="bold"/>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical|horizontal"
+    android:scrollbarStyle="insideOverlay"
+     android:layout_margin="5dp">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+            <TextView 
+                android:text="sin(θ) = Opposite / Hypotenuse"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|fill_horizontal"
+                android:layout_gravity="fill_horizontal"/>
+            <TextView 
+                android:text="cos(θ) = Adjacent / Hypotenuse"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+            <TextView 
+                android:text="tan(θ) = Opposite / Adjacent"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+            <TextView 
+                android:text="sin-inv = 1 / sec x"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+             <TextView 
+                android:text="cos-inv = 1 / cosec x"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+            <TextView 
+                android:text="tan-inv = 1 / cot x"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <TextView 
+                android:text="sinh x = (ex-e-x) / 2"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+       <TextView 
+                android:text="cosh x= (ex+e-x) / 2"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+       <TextView 
+                android:text="tanh x = sinhx / coshx"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+       <TextView 
+                android:text="exp(x+y) = exp(x).exp(y)"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+        <TextView 
+                android:text="1/X = 1 divided by the value of X"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+        <TextView 
+                android:text="x! = x × (x-1)!"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+       <TextView 
+                android:text="x2 = x to the power of value 2"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+        <TextView 
+                android:text="x3 = X to the power of value 3"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+        <TextView 
+                android:text="x to the POWER of value n"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>
+        <TextView 
+                android:text="SQUARE ROOT of value x"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="fill_horizontal"
+                android:gravity="center|fill_horizontal"/>           
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

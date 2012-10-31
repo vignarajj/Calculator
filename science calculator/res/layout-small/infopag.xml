@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:layout_margin="6dp"
+    android:text="This scientific calculator application allows you to calculate the value of complex expressions honestly using your mobile phone. It approaches with all the functions you can probably want from a mobile calculator application - trigonometric functions, degrees/radians, exponential, logarithm etc."
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    />
+    
+
+</LinearLayout>
